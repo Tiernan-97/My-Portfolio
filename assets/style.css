@@ -4,20 +4,20 @@
     padding: 0;
     margin: 0;
     color: rgb(255, 115, 0);
+    font-size: 16px;
 }
 
 body{
     background-color: rgb(0, 0, 0);
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 header{
     color: rgb(255, 115, 0);
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(58, 58, 58);
     min-height: 5vh;
     padding: 10px;
+    font-size: 2em;
 }
 
 header h1{
@@ -28,8 +28,6 @@ header nav{
     float:right;
     padding-top: 10px;
     margin-right: 20px;
-    font-size: 20px;
-
 }
 
 header nav ul {
@@ -41,9 +39,22 @@ header nav ul li {
     margin-left: 25px;
 }
 
+header nav ul li img{
+    width:25px;
+    height:25px;
+    margin-left: 10px;
+
+}
+
 a {
     color: rgb(255, 115, 0);
     text-decoration: none;
+    font-size: 1.5em;
+}
+
+main{
+    display: flex;
+    flex-direction:row;
 }
 
 p{
@@ -59,25 +70,40 @@ aside{
     border: 6px;
     padding: 10px;
     border-radius: 10px;
+    margin: 10px 0px;
 }
 
 aside h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 1.75em;
+    margin: 10px;
 }
 
 #me{
     border-radius: 150px;
 }
 
-h3 #image-header{
-    display: inline;
+#image-header{
+    font-size: 1.5em;
+    max-height:2em;
+    margin: 1em;
 }
 
-section #screenshots{
-    background-color: rgb(58, 58, 58);
-    padding: 10px;
+.gallery{
+    background-color:rgb(58, 58, 58);
     border-radius: 10px;
+    margin: 10px;
+}
+
+.photos{
+    display: block;
+    margin: 2em;
+    border: 10em, rgb(58, 58, 58), solid;
+}
+
+.photos img{
+    width: 400px;
+    margin: 20px;
 }
 
 footer{
@@ -85,6 +111,9 @@ footer{
     padding: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    margin-top: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    min-width: 100vw;
 
 }
