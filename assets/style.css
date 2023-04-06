@@ -1,23 +1,33 @@
+:root{
+    --tertiary: rgb(58, 58, 58);
+    --secondary: rgb(255, 115, 0)
+}
+
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: rgb(255, 115, 0);
+    color: var(--secondary);
     font-size: 16px;
 }
 
 body{
     background-color: rgb(0, 0, 0);
-    min-height: 100vh;
 }
 
 header{
-    color: rgb(255, 115, 0);
-    background-color: rgb(58, 58, 58);
-    min-height: 5vh;
+    color:var(--secondary);
+    background-color:var(--tertiary);
+    height: fit-content;
     padding: 10px;
     font-size: 2em;
+    display:flex;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
 }
 
 header h1{
@@ -25,9 +35,7 @@ header h1{
 }
 
 header nav{
-    float:right;
-    padding-top: 10px;
-    margin-right: 20px;
+    position:relative;
 }
 
 header nav ul {
@@ -47,36 +55,41 @@ header nav ul li img{
 }
 
 a {
-    color: rgb(255, 115, 0);
+    color:var(--secondary);
     text-decoration: none;
     font-size: 1.5em;
 }
 
 main{
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
 }
 
 p{
-    color: rgb(255, 115, 0);
-}
-
-aside{
-    background-color: rgb(58, 58, 58);
-    max-width: 300px;
-    float: left;
-    justify-content: center;
+    color: var(--secondary);
+    display: grid;
     align-content: center;
-    border: 6px;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px 0px;
+    padding: 20px;
 }
 
-aside h2{
+.me{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:var(--tertiary);
+    border-radius: 10px;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+section h2{
+
     text-align: center;
     font-size: 1.75em;
     margin: 10px;
+    align-content: center;
+    display: grid;
 }
 
 #me{
@@ -90,7 +103,7 @@ aside h2{
 }
 
 .gallery{
-    background-color:rgb(58, 58, 58);
+    background-color:var(--tertiary);
     border-radius: 10px;
     margin: 10px;
 }
@@ -98,7 +111,7 @@ aside h2{
 .photos{
     display: block;
     margin: 2em;
-    border: 10em, rgb(58, 58, 58), solid;
+    border: 10em, var(--tertiary), solid;
 }
 
 .photos img{
@@ -107,13 +120,13 @@ aside h2{
 }
 
 footer{
-    background-color: rgb(58, 58, 58);
+    background-color: var(--tertiary);
     padding: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     text-align: center;
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
-    min-width: 100vw;
-
+    width: 100%;
 }
