@@ -94,6 +94,7 @@ section h2{
 
 #me{
     border-radius: 150px;
+    width: 100%;
 }
 
 #image-header{
@@ -115,16 +116,16 @@ section h2{
 }
 
 .photos img{
-    width: 400px;
-    margin: 20px;
+    width: 100%;
+    margin: 10px 0px;
     border: 5px solid var(--secondary);
     border-radius: 20px;
     opacity: 0.7;
 }
 
 .photos img:hover{
-    width: 400px;
-    margin: 20px;
+    width: 100%;
+    margin: 10px 0px;
     border: 5px solid var(--secondary);
     border-radius: 20px;
     opacity: 1;
@@ -133,17 +134,17 @@ section h2{
 #firstproject{
     position:relative;
     width:400px;
-    margin:40px;
+    margin:0px;
 }
 
 #firstprojecttext{
     position: absolute; 
     width:100px;
     height: 28px;
-    bottom:105px;
+    bottom:81px;
     background: var(--secondary);
     color: black;
-    left:25px;
+    left:4px;
     text-align: center;
     font-size: 1.2em;
 }
@@ -151,17 +152,17 @@ section h2{
 #currentproject{
     position:relative;
     width:400px;
-    margin:40px;
+    margin:0px 20px;
 }
 
 #currentprojecttext{
     position: absolute; 
     width:auto;
     height: auto;
-    bottom:57px;
+    bottom:45px;
     background: var(--secondary);
     color: black;
-    left:25px;
+    left:4px;
     text-align: center;
     font-size: 1.2em;
 }
