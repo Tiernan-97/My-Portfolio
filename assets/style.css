@@ -109,14 +109,61 @@ section h2{
 }
 
 .photos{
-    display: block;
+    display: flex;
     margin: 2em;
-    border: 10em, var(--tertiary), solid;
+    flex-wrap: wrap;
 }
 
 .photos img{
     width: 400px;
     margin: 20px;
+    border: 5px solid var(--secondary);
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.photos img:hover{
+    width: 400px;
+    margin: 20px;
+    border: 5px solid var(--secondary);
+    border-radius: 20px;
+    opacity: 1;
+}
+
+#firstproject{
+    position:relative;
+    width:400px;
+    margin:40px;
+}
+
+#firstprojecttext{
+    position: absolute; 
+    width:100px;
+    height: 28px;
+    bottom:105px;
+    background: var(--secondary);
+    color: black;
+    left:25px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#currentproject{
+    position:relative;
+    width:400px;
+    margin:40px;
+}
+
+#currentprojecttext{
+    position: absolute; 
+    width:auto;
+    height: auto;
+    bottom:57px;
+    background: var(--secondary);
+    color: black;
+    left:25px;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 footer{
