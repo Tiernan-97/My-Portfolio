@@ -167,14 +167,31 @@ section h2{
     font-size: 1.2em;
 }
 
+#contacts{
+    display: flex;
+    background-color:var(--tertiary);
+    border-radius: 10px;
+    margin: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contacts h3{
+    margin:10px;
+    font-size: 1.25em;
+}
+
+#contacts form{
+    margin:10px;
+}
+
 footer{
     background-color: var(--tertiary);
     padding: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    margin-left: 10px;
+    margin-right:10px;
+    width: auto;
 }
