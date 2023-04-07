@@ -1,2 +1,2 @@
-# My-Portolio
+# My-Portfolio
 My WIP portfolio
