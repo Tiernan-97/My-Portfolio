@@ -147,7 +147,7 @@ section h2{
 
 #firstprojecttext{
     position: absolute; 
-    width:100px;
+    width:auto;
     height: 28px;
     bottom:81px;
     background: var(--secondary);
