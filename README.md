@@ -32,3 +32,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Methodology
 
 With the use of flex boxes in CSS, I have deployed a webpage which I can use a basis for my constantly growing portfolio filled with my projects. The webpage includes my name, a recent photo and links to sections about me. When a link is clicked on in the navigation bar, it automatically scrolls to that part of the webpage. I gave all of the images titles, and made sure that the first project is larger than the others. I implemented attributes to the images so that when they're clicked on, you're taken to the corresponding projects deployed site. As a result of using flex display, when the page is resized, the layout is reposive and adapts to the users viewpoint.
+
+## Webpage images
+
+<img src=./assets/fullscreen.png alt="fullscreen">
+<img src=./assets/smallerscreen.png alt="smallerscreen">
+
+## Links
+
+Github: https://github.com/Tiernan-97/My-Portfolio
+Live Depolyed Page: https://tiernan-97.github.io/My-Portfolio/
